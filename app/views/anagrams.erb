@@ -1,0 +1,6 @@
+<!-- for each word inputed into the textbox, iterate over that and show me all 
+the anagrams -->
+
+  <% @word.each do |anagram| %>
+    <%= anagram.words %>
+  <% end %>
